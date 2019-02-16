@@ -1,0 +1,553 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* HERO Section START */
+
+.heroSection {
+    background-color: #87509c;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 58px 0 149px 0;
+}
+
+.heroSection .logo {
+    width: 50%;
+    float: left;
+}
+
+.heroSection .logo img {
+    cursor: pointer;
+}
+
+.heroSection .menu {
+    width: 50%;
+    float: right;
+}
+
+.heroSection ul {
+    text-align: right;
+}
+
+.heroSection ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 44px;
+}
+
+.heroSection ul li:first-child {
+    margin-left: 0px;
+}
+
+.heroSection ul li a {
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.heroSection ul li a:hover {
+    text-decoration: underline;
+}
+
+.heroSection .heroDesc {
+    text-align: center;
+}
+
+.heroSection .heroDesc h1 {
+    font-size: 42.16px;
+    font-weight: bold;
+    color: #f7f3ea;
+    text-align: center;
+    margin: 0;
+    padding: 146px 0 62px 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+.heroSection .heroDesc a {
+    text-decoration: none;
+    display: inline-block;
+    width: 294px;
+    height: 66px;
+    background-color: #eb7d4b;
+    text-align: center;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 3px;
+    box-sizing: border-box;
+    /* box-shadow: 0px 15px 10px -15px #eb7d4b; */
+}
+
+
+/* HERO Section End */
+
+
+/* SERVICES Section START */
+
+.services {
+    background-color: #17c2a4;
+    text-align: center;
+    padding: 120px 0 128px 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+.services .servicesTitle h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #ffffff;
+    cursor: default;
+}
+
+.services .servicesTitle p {
+    margin: 0;
+    display: inline-block;
+    padding: 50px 280px 85px 280px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+.services .servicesElements {
+    text-align: center;
+}
+
+.services .servicesElements .element {
+    width: 25%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.services .servicesElements h3 {
+    margin: 0;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 60px 0 30px 0;
+    box-sizing: border-box;
+}
+
+.services .servicesElements p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 0px 45px;
+    box-sizing: border-box;
+}
+
+
+/* SERVICES Section End */
+
+
+/* Section START circle*/
+
+.team {
+    background-color: #e7f1f8;
+    text-align: center;
+    padding: 120px 0 127px 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+.team .teamIntro {}
+
+.team .teamIntro h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 41.29px;
+    letter-spacing: 3px;
+    color: #3c4761;
+}
+
+.team .teamIntro p {
+    margin: 0;
+    padding: 50px 0 80px 0;
+    font-size: 18.58px;
+    font-weight: 600;
+    color: #3c4761;
+    box-sizing: border-box;
+}
+
+.team .membersList .member {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.team .membersList .member .memberPhoto {}
+
+.team .membersList .member .memberPhoto img {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.team .membersList .member:hover {}
+
+.team .membersList .member h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #3c4761;
+    padding: 40px 0 15px 0;
+    box-sizing: border-box;
+}
+
+.team .membersList .member span {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #30bae7;
+}
+
+.team .membersList .member p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3c4761;
+    padding: 26px 44px 30px 44px;
+    box-sizing: border-box;
+}
+
+.team .membersList .member .memberSocial a {
+    display: inline-block;
+    background-color: #bdd1df;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 32px;
+    width: 32px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+
+.team .membersList .member .memberSocial a:last-child {
+    margin-right: 0;
+}
+
+.team .membersList .member .memberSocial a i {
+    font-size: 15px;
+    line-height: 32px;
+}
+
+
+/* Section End */
+
+
+/* PORTFOLIO Section START */
+
+.portfolio {
+    background-color: #ffdd99;
+    text-align: center;
+    padding: 115px 0 113px 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+.portfolio .portfolioIntro {}
+
+.portfolio .portfolioIntro h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #393939;
+}
+
+.portfolio .portfolioIntro p {
+    margin: 0;
+    padding: 50px 300px 80px 300px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #393939;
+    box-sizing: border-box;
+}
+
+.portfolio .portfolioItems {}
+
+.portfolio .portfolioItems .item {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.portfolio .portfolioItems .item h3 {
+    margin: 0;
+    color: #393939;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 30px 0 65px 0;
+    box-sizing: border-box;
+}
+
+.portfolio a {
+    text-decoration: none;
+    display: inline-block;
+    width: 294px;
+    height: 67px;
+    background-color: #17c2a4;
+    text-align: center;
+    line-height: 67px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 3px;
+    box-sizing: border-box;
+    /* box-shadow: 0px 15px 10px -15px #eb7d4b; */
+}
+
+
+/* PORTFOLIO Section End */
+
+
+/* ABOUTUS Section START */
+
+.aboutUs {
+    background-color: #d74680;
+    text-align: center;
+    padding: 120px 0 128px 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+.aboutUs .peopleOpinions {}
+
+.aboutUs .peopleOpinions h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+.aboutUs .peopleOpinions p {
+    margin: 0;
+    padding: 50px 0 70px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.aboutUs .people {
+    text-align: left;
+}
+
+.aboutUs .people .opinion {
+    width: 50%;
+    float: left;
+}
+
+.aboutUs .people .opinion .photo {
+    float: left;
+    width: 165px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.aboutUs .people .opinion .photo img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+}
+
+.aboutUs .people .opinion p {
+    margin: 0;
+    display: inline-block;
+    width: 405px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-style: italic;
+    font-size: 21px;
+    padding-right: 73px;
+}
+
+.aboutUs .people .opinion .person {
+    width: 405px;
+    box-sizing: border-box;
+    float: right;
+}
+
+.aboutUs .people .opinion .person h3 {
+    margin: 0;
+    text-transform: uppercase;
+    padding: 27px 0 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff
+}
+
+.aboutUs .people .opinion .person span {
+    display: inline-block;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ffdd99;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.aboutUs .people .opinion .person span.top {
+    padding-bottom: 148px;
+    box-sizing: border-box;
+}
+
+
+/* ABOUTUS Section End */
+
+
+/* TOUCH Section START */
+
+
+/* TOUCH Section End */
+
+.touch {
+    background-color: #3c5499;
+    padding: 120px 0 118px 0;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: default;
+}
+
+.touch h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+.touch p {
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 50px 0 77px 0;
+    box-sizing: border-box;
+}
+
+.touch form {}
+
+.touch input::placeholder {
+    color: #ffffff;
+    padding: 22px;
+}
+
+.touch textarea::placeholder {
+    color: #ffffff;
+}
+
+.touch input.myInput {
+    width: 414px;
+    height: 65px;
+    margin-left: 28px;
+    background-color: #273a71;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 27px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.touch input.myInput:first-Child {
+    margin-left: 0;
+}
+
+.touch textarea {
+    width: 860px;
+    height: 200px;
+    background-color: #273a71;
+    border-radius: 2px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 18px;
+    resize: none;
+    padding: 22px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.touch input.inputBtn {
+    display: inline-block;
+    background-color: #30bae7;
+    border-radius: 2px;
+    border: none;
+    width: 293px;
+    height: 66px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    cursor: pointer;
+}
+
+
+/* FOOTER Section START */
+
+.footer {
+    width: 100%;
+    background-color: #344b8e;
+    height: 112px;
+    line-height: 112px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.footer ul {
+    margin: 0;
+}
+
+.footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 44px;
+}
+
+.footer ul li:first-child {
+    margin-left: 0px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footer ul li a:hover {
+    color: #30bae7;
+}
+
+
+/* FOOTER Section End */
